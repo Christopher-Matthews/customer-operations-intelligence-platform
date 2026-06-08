@@ -74,6 +74,8 @@ Create a synthetic database of approximately 10,000 customers across current and
 
 The company is a newer business with approximately seven years of operating history. Generated data should span the past seven years, with customer acquisition, opportunities, contracts, cases, service events, churn, renewals, expansions, and outcomes distributed across that period.
 
+Before creating the full 10,000-customer dataset, create a pilot batch of approximately 1,000 customers. Check the pilot batch for schema correctness, relationship integrity, realistic row counts, timeline consistency, active/churned mix, and visible business signal. Only continue to the full 10,000-customer batch after the pilot batch looks coherent.
+
 Recommended starting mix:
 
 - 65% to 80% active customers
@@ -443,6 +445,7 @@ Before handing off a batch, check each CSV for:
 - Parseable dates and timestamps
 - Reasonable row counts
 - Realistic active/churned customer mix
+- For the first run, a coherent 1,000-customer pilot batch exists and has been checked before producing the full 10,000-customer batch
 
 Also check the sample handoff:
 
