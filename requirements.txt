@@ -1,0 +1,9 @@
+faker
+numpy
+pandas
+pydantic
+pyarrow
+python-dotenv
+PyYAML
+tqdm
+google-cloud-bigquery

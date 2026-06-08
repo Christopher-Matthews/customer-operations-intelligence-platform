@@ -1,0 +1,5 @@
+.env
+
+# Data --keep samples
+data/generated/
+*.parquet
