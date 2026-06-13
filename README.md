@@ -489,6 +489,12 @@ Deliverable:
 
 Raw operational tables loaded into BigQuery.
 
+Repository data policy:
+
+Full generated datasets are excluded from Git because they are local working artifacts for loading into BigQuery.
+
+Small sample batches are committed under `data/samples/` so the schema, field values, and generated business patterns can be inspected without storing the full dataset in the repository.
+
 ---
 
 # Phase 1 — Data Warehousing

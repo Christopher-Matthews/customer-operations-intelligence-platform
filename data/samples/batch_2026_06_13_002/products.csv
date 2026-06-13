@@ -1,0 +1,19 @@
+product_id,product_name,product_family,product_type,complexity_level,target_segment,list_price_monthly,list_price_annual,launch_date,retirement_date,is_active,created_at,updated_at,batch_id
+PROD_000001,Operations Hub,Core Platform,subscription,3,All,520.00,6240.00,2019-06-13,,true,2019-06-13 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000002,Customer Timeline,Core Platform,subscription,2,SMB,290.00,3480.00,2019-09-01,,true,2019-09-01 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000003,Workflow Studio,Workflow,subscription,4,Mid-Market,780.00,9360.00,2020-02-12,,true,2020-02-12 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000004,Renewal Desk,Revenue Operations,subscription,3,All,640.00,7680.00,2020-05-18,,true,2020-05-18 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000005,Support Command,Support Automation,subscription,4,Mid-Market,860.00,10320.00,2020-10-05,,true,2020-10-05 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000006,Field Service Sync,Integration,subscription,4,Enterprise,1150.00,13800.00,2021-01-20,,true,2021-01-20 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000007,Analytics Essentials,Analytics,subscription,2,SMB,410.00,4920.00,2021-04-15,,true,2021-04-15 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000008,Executive Metrics,Analytics,subscription,3,Enterprise,1220.00,14640.00,2021-08-03,,true,2021-08-03 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000009,Integration Bridge,Integration,subscription,5,All,980.00,11760.00,2021-11-09,,true,2021-11-09 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000010,Onboarding Accelerator,Professional Services,services,3,All,1800.00,21600.00,2022-01-17,,true,2022-01-17 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000011,Usage Signals,Analytics,subscription,3,Mid-Market,720.00,8640.00,2022-05-11,,true,2022-05-11 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000012,Case Deflection AI,Support Automation,subscription,5,Enterprise,1420.00,17040.00,2022-09-26,,true,2022-09-26 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000013,Partner Portal,Workflow,subscription,4,Mid-Market,840.00,10080.00,2023-02-14,,true,2023-02-14 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000014,Compliance Pack,Governance,add_on,4,Enterprise,930.00,11160.00,2023-06-22,,true,2023-06-22 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000015,Customer Health Monitor,Analytics,subscription,3,All,760.00,9120.00,2023-10-04,,true,2023-10-04 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000016,Mobile Service Console,Workflow,add_on,3,All,340.00,4080.00,2024-01-29,,true,2024-01-29 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000017,Data Quality Guard,Governance,subscription,4,Mid-Market,690.00,8280.00,2024-04-19,,true,2024-04-19 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
+PROD_000018,Revenue Expansion Kit,Revenue Operations,add_on,3,All,510.00,6120.00,2024-08-06,,true,2024-08-06 09:00:00,2026-06-13 09:00:00,batch_2026_06_13_002
