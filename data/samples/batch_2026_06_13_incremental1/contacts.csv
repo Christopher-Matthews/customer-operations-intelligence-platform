@@ -1,0 +1,21 @@
+contact_id,customer_id,first_name,last_name,email,phone,job_title,department,contact_role,influence_level,is_primary_contact,created_at,updated_at,batch_id
+CONT_026811,CUST_010001,Alex,Bennett,alex.bennett.cust_010001@example.com,555-0100-0000,VP Operations,Operations,Primary Contact,High,true,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026812,CUST_010001,Jordan,Campbell,jordan.campbell.cust_010001@example.com,555-0100-0001,Operations Manager,Finance,Decision Maker,Medium,false,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026813,CUST_010002,Jordan,Diaz,jordan.diaz.cust_010002@example.com,555-0101-0000,VP Operations,Operations,Primary Contact,High,true,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026814,CUST_010003,Taylor,Foster,taylor.foster.cust_010003@example.com,555-0102-0000,VP Operations,Operations,Primary Contact,High,true,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026815,CUST_010004,Morgan,Hayes,morgan.hayes.cust_010004@example.com,555-0103-0000,VP Operations,Operations,Primary Contact,High,true,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026816,CUST_010004,Casey,Kim,casey.kim.cust_010004@example.com,555-0103-0001,Operations Manager,Finance,Decision Maker,Medium,false,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026817,CUST_010005,Casey,Lopez,casey.lopez.cust_010005@example.com,555-0104-0000,VP Operations,Operations,Primary Contact,High,true,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026818,CUST_010006,Riley,Patel,riley.patel.cust_010006@example.com,555-0105-0000,VP Operations,Operations,Primary Contact,High,true,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026819,CUST_010007,Avery,Sanchez,avery.sanchez.cust_010007@example.com,555-0106-0000,VP Operations,Operations,Primary Contact,High,true,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026820,CUST_010007,Jamie,Turner,jamie.turner.cust_010007@example.com,555-0106-0001,Operations Manager,Finance,Decision Maker,Medium,false,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026821,CUST_010008,Jamie,Walker,jamie.walker.cust_010008@example.com,555-0107-0000,VP Operations,Operations,Primary Contact,High,true,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026822,CUST_010009,Quinn,Campbell,quinn.campbell.cust_010009@example.com,555-0108-0000,VP Operations,Operations,Primary Contact,High,true,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026823,CUST_010010,Reese,Ellis,reese.ellis.cust_010010@example.com,555-0109-0000,VP Operations,Operations,Primary Contact,High,true,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026824,CUST_010010,Skyler,Foster,skyler.foster.cust_010010@example.com,555-0109-0001,Operations Manager,Finance,Decision Maker,Medium,false,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026825,CUST_010011,Skyler,Garcia,skyler.garcia.cust_010011@example.com,555-0110-0000,VP Operations,Operations,Primary Contact,High,true,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026826,CUST_010012,Parker,Kim,parker.kim.cust_010012@example.com,555-0111-0000,VP Operations,Operations,Primary Contact,High,true,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026827,CUST_010013,Drew,Morgan,drew.morgan.cust_010013@example.com,555-0112-0000,VP Operations,Operations,Primary Contact,High,true,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026828,CUST_010013,Cameron,Patel,cameron.patel.cust_010013@example.com,555-0112-0001,Operations Manager,Finance,Decision Maker,Medium,false,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026829,CUST_010014,Cameron,Reed,cameron.reed.cust_010014@example.com,555-0113-0000,VP Operations,Operations,Primary Contact,High,true,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+CONT_026830,CUST_010015,Hayden,Turner,hayden.turner.cust_010015@example.com,555-0114-0000,VP Operations,Operations,Primary Contact,High,true,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1

@@ -1,0 +1,26 @@
+outcome_id,customer_id,contract_id,related_case_id,related_service_event_id,outcome_type,outcome_date,outcome_status,outcome_value,renewal_flag,churn_flag,expansion_flag,resolution_flag,revenue_impact,created_at,updated_at,batch_id
+OUT_026111,CUST_010001,CNTR_014941,CASE_054701,SEVT_188261,initial_activation,2026-06-13,achieved,10207.37,false,false,false,true,10207.37,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026112,CUST_010002,CNTR_014942,,SEVT_188262,initial_activation,2026-06-13,achieved,15093.45,false,false,false,false,15093.45,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026113,CUST_010003,CNTR_014943,,SEVT_188263,initial_activation,2026-06-13,achieved,78223.46,false,false,false,false,78223.46,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026114,CUST_010004,CNTR_014944,CASE_054702,SEVT_188264,initial_activation,2026-06-13,achieved,179026.83,false,false,false,true,179026.83,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026115,CUST_010005,CNTR_014945,,SEVT_188265,initial_activation,2026-06-13,achieved,10140.16,false,false,false,false,10140.16,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026116,CUST_010006,CNTR_014946,,SEVT_188266,initial_activation,2026-06-13,achieved,14594.61,false,false,false,false,14594.61,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026117,CUST_010007,CNTR_014947,CASE_054703,SEVT_188267,initial_activation,2026-06-13,achieved,67641.19,false,false,false,true,67641.19,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026118,CUST_010008,CNTR_014948,,SEVT_188268,initial_activation,2026-06-13,achieved,261531.13,false,false,false,false,261531.13,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026119,CUST_010009,CNTR_014949,,SEVT_188269,initial_activation,2026-06-13,achieved,12377.22,false,false,false,false,12377.22,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026120,CUST_010010,CNTR_014950,CASE_054704,SEVT_188270,initial_activation,2026-06-13,achieved,11096.61,false,false,false,true,11096.61,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026121,CUST_010011,CNTR_014951,,SEVT_188271,initial_activation,2026-06-13,achieved,58666.93,false,false,false,false,58666.93,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026122,CUST_010012,CNTR_014952,,SEVT_188272,initial_activation,2026-06-13,achieved,174109.88,false,false,false,false,174109.88,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026123,CUST_010013,CNTR_014953,CASE_054705,SEVT_188273,initial_activation,2026-06-13,achieved,10356.91,false,false,false,true,10356.91,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026124,CUST_010014,CNTR_014954,,SEVT_188274,initial_activation,2026-06-13,achieved,14379.84,false,false,false,false,14379.84,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026125,CUST_010015,CNTR_014955,,SEVT_188275,initial_activation,2026-06-13,achieved,51588.71,false,false,false,false,51588.71,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026126,CUST_000002,CNTR_000005,CASE_054706,SEVT_188276,churn,2026-06-13,occurred,0.00,false,true,false,true,-7314.27,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026127,CUST_000003,CNTR_000006,CASE_054707,SEVT_188277,churn,2026-06-13,occurred,0.00,false,true,false,true,-13495.11,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026128,CUST_000004,CNTR_000007,CASE_054708,SEVT_188278,churn,2026-06-13,occurred,0.00,false,true,false,true,-9649.74,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026129,CUST_000005,CNTR_014956,,SEVT_188279,expansion,2026-06-13,achieved,11137.80,false,false,true,false,11137.80,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026130,CUST_000007,CNTR_014957,,SEVT_188280,expansion,2026-06-13,achieved,2675.93,false,false,true,false,2675.93,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026131,CUST_000008,CNTR_014958,,SEVT_188281,expansion,2026-06-13,achieved,10568.74,false,false,true,false,10568.74,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026132,CUST_000010,CNTR_014959,,SEVT_188282,expansion,2026-06-13,achieved,2765.52,false,false,true,false,2765.52,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026133,CUST_000011,CNTR_000017,CASE_054709,SEVT_188283,support_risk,2026-06-13,in_progress,0.00,false,false,false,false,0.00,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026134,CUST_000012,CNTR_000018,CASE_054710,SEVT_188284,support_risk,2026-06-13,in_progress,0.00,false,false,false,false,0.00,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
+OUT_026135,CUST_000013,CNTR_000019,CASE_054711,SEVT_188285,support_risk,2026-06-13,in_progress,0.00,false,false,false,false,0.00,2026-06-13 15:00:00,2026-06-13 15:00:00,batch_2026_06_13_incremental1
