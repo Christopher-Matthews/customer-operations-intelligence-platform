@@ -103,3 +103,13 @@ Use the specialized agent files in `.agents/` for phase-specific work.
 - For reviews, quality checks, and risk finding, use `.agents/reviewer-agent.md`.
 
 Before working in a phase-specific area, read the matching `.agents/` file first and follow its local guidance.
+
+## Current Data State
+
+The initial synthetic operational dataset has been generated.
+
+Use `data/generated/batch_2026_06_13_002/` as the canonical full-load source batch for the data engineer handoff.
+
+Use `data/samples/batch_2026_06_13_002/` as the committed inspection sample for schemas and example values.
+
+The full generated dataset is intentionally excluded from Git. The sample dataset is intentionally committed.

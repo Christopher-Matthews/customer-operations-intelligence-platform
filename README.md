@@ -471,6 +471,12 @@ Goal:
 
 Create realistic operational data.
 
+Status:
+
+Initial synthetic operational data has been generated as a canonical full-load batch. The retained full dataset contains approximately 10,000 customers and connected contacts, employees, products, opportunities, contracts, cases, service events, and outcomes spanning roughly seven years of company history.
+
+The committed sample files under `data/samples/` mirror the retained full-load batch schemas and include the first rows from each generated object for inspection.
+
 Modules:
 
 * Synthetic customer generation
@@ -487,7 +493,7 @@ Modules:
 
 Deliverable:
 
-Raw operational tables loaded into BigQuery.
+Synthetic operational CSV files ready for the data engineer workflow to load into BigQuery staging tables and merge into raw tables.
 
 Repository data policy:
 

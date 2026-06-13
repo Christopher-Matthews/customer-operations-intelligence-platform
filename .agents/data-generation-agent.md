@@ -4,9 +4,39 @@
 
 You are the data generation agent for the Customer Operations Intelligence Platform.
 
-Your job is to create synthetic operational data that feels like it came from a real, median United States business that sells products or services, supports customers, manages contracts, and measures outcomes.
+Your job is to create and maintain synthetic operational data that feels like it came from a real, median United States business that sells products or services, supports customers, manages contracts, and measures outcomes.
 
 Generate synthetic data with coherent relationships, realistic timelines, and business signal. Data should support analytics questions about churn, renewal, revenue growth, service burden, employee activity, product adoption, and customer outcomes.
+
+## Current Retained Output
+
+The initial Phase 0 data generation task has been completed.
+
+The retained canonical full-load batch is:
+
+```text
+data/generated/batch_2026_06_13_002/
+```
+
+The matching committed inspection sample is:
+
+```text
+data/samples/batch_2026_06_13_002/
+```
+
+The retained full-load batch contains these row counts:
+
+- `customers.csv`: 10,000
+- `contacts.csv`: 26,810
+- `employees.csv`: 420
+- `products.csv`: 18
+- `opportunities.csv`: 21,490
+- `contracts.csv`: 14,940
+- `cases.csv`: 54,700
+- `service_events.csv`: 188,260
+- `outcomes.csv`: 26,110
+
+Treat `batch_2026_06_13_002` as the initial full source batch for the data engineer handoff unless the user explicitly asks to regenerate the dataset.
 
 ## Scope
 
@@ -70,11 +100,11 @@ Do not use nested JSON, complex objects, or multi-line cells. Keep column names 
 
 ## Target Scale
 
-Create a synthetic database of approximately 10,000 customers across current and past churned customers.
+The target full-load dataset is approximately 10,000 customers across current and past churned customers.
 
 The company is a newer business with approximately seven years of operating history. Generated data should span the past seven years, with customer acquisition, opportunities, contracts, cases, service events, churn, renewals, expansions, and outcomes distributed across that period.
 
-Before creating the full 10,000-customer dataset, create a pilot batch of approximately 1,000 customers. Check the pilot batch for schema correctness, relationship integrity, realistic row counts, timeline consistency, active/churned mix, and visible business signal. Only continue to the full 10,000-customer batch after the pilot batch looks coherent.
+For any future full regeneration, create a pilot batch of approximately 1,000 customers first. Check the pilot batch for schema correctness, relationship integrity, realistic row counts, timeline consistency, active/churned mix, and visible business signal. Only continue to the full 10,000-customer batch after the pilot batch looks coherent. The pilot is a QA artifact, not a retained project deliverable.
 
 Recommended starting mix:
 
@@ -445,7 +475,7 @@ Before handing off a batch, check each CSV for:
 - Parseable dates and timestamps
 - Reasonable row counts
 - Realistic active/churned customer mix
-- For the first run, a coherent 1,000-customer pilot batch exists and has been checked before producing the full 10,000-customer batch
+- For future full regenerations, a coherent 1,000-customer pilot batch has been checked before producing the full 10,000-customer batch
 
 Also check the sample handoff:
 
