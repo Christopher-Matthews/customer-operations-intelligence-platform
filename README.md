@@ -501,6 +501,54 @@ Full generated datasets are excluded from Git because they are local working art
 
 Small sample batches are committed under `data/samples/` so the schema, field values, and generated business patterns can be inspected without storing the full dataset in the repository.
 
+Data engineer load workflow:
+
+The data engineer workflow loads generated CSV files into BigQuery staging tables, validates the staging load, and appends new hash-versioned records into raw tables.
+
+Expected local `.env` keys:
+
+```bash
+GOOGLE_APPLICATION_CREDENTIALS=.gcp-sa.json
+GCP_PROJECT_ID=your-project-id
+
+BQ_TEST_STAGING_DATASET=customer_ops_staging_test
+BQ_TEST_RAW_DATASET=customer_ops_raw_test
+BQ_PROD_STAGING_DATASET=customer_ops_staging_prod
+BQ_PROD_RAW_DATASET=customer_ops_raw_prod
+```
+
+Initial full test load:
+
+```bash
+python scripts/load_bigquery_staging.py --env test --batch-id batch_2026_06_13_002
+python scripts/validate_bigquery_load.py --env test --batch-id batch_2026_06_13_002
+python scripts/merge_bigquery_raw.py --env test --batch-id batch_2026_06_13_002
+```
+
+Incremental test load:
+
+```bash
+python scripts/load_bigquery_staging.py --env test --batch-id batch_2026_06_13_incremental1
+python scripts/validate_bigquery_load.py --env test --batch-id batch_2026_06_13_incremental1
+python scripts/merge_bigquery_raw.py --env test --batch-id batch_2026_06_13_incremental1
+```
+
+Production full load after human validation:
+
+```bash
+python scripts/load_bigquery_staging.py --env prod --batch-id batch_2026_06_13_002 --confirm-prod
+python scripts/validate_bigquery_load.py --env prod --batch-id batch_2026_06_13_002 --confirm-prod
+python scripts/merge_bigquery_raw.py --env prod --batch-id batch_2026_06_13_002 --confirm-prod
+```
+
+Production incremental load after human validation:
+
+```bash
+python scripts/load_bigquery_staging.py --env prod --batch-id batch_2026_06_13_incremental1 --confirm-prod
+python scripts/validate_bigquery_load.py --env prod --batch-id batch_2026_06_13_incremental1 --confirm-prod
+python scripts/merge_bigquery_raw.py --env prod --batch-id batch_2026_06_13_incremental1 --confirm-prod
+```
+
 ---
 
 # Phase 1 — Data Warehousing

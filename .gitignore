@@ -1,4 +1,6 @@
 .env
+.gcp-sa.json
+.venv/
 
 # Data --keep samples
 data/generated/
